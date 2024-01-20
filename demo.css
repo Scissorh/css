@@ -1,3 +1,4 @@
+
 /* Recently uploaded */ .listemup-bg{position:relative;overflow:hidden;padding:20px 20px 30px;border-radius:10px;background:var(--contentB);border:1px solid var(--Thumnail-Border);box-shadow:0 5px 35px rgb(0 0 0 / 7%)}.listemup-bg::before{pointer-events:none;content:'';width:70px;height:70px;position:absolute;z-index:0;background:rgba(0,0,0,.18);bottom:0;left:0;border-radius:0 70px 0 0}#listemup img{width:100px;transition:.3s}#listemup li{list-style-type:none;display:flex;align-items:center;text-align:center;margin:7px auto;border-radius:16px;overflow:hidden;border:10px solid var(--contentB);box-shadow:0 5px 16px rgb(0 0 0 / 7%)}#listemup h2{position:absolute;z-index:1;transform:scale(0);bottom:-19px;left:20px;right:20px;text-overflow:ellipsis;white-space:nowrap;font-size:100%;transition:.2s}#listemup ul{display:flex;flex-wrap:wrap;padding:0;justify-content:center;align-items:center;position:relative}#listemup a:hover~h2{transform:scale(1)}#listemup li:hover{outline:1px solid var(--Thumnail-Border)}#listemup img:hover{transform:scale(1.1);filter:brightness(.5)}.drK .listemup-bg{background:var(--darkBa)}.drK #listemup li{border:10px solid var(--darkBa);box-shadow:0 5px 25px rgb(0 0 0 / 25%)}
 /* techyarif */ .techyarif::after,.techyarif::before{content:'';display:block;position:absolute;width:115px;height:115px;transition:opacity .3s;opacity:1}.techyarif{position:relative;padding:25px;border-radius:10px;background:#fff;box-shadow:0 10px 25px -3px rgb(0 0 0 / 10%);margin-top:25px}.techyarif::before{top:0;left:0;background:rgba(155,170,175,.12);background-repeat:no-repeat;border-radius:10px 0 120px}.techyarif::after{bottom:0;right:0;background:rgba(155,170,175,.12);background-repeat:no-repeat;border-radius:120px 0 10px}.drK .techyarif{background-color:var(--darkBa)}
 kbd{margin:0 .1em;padding:.12em .6em;border-radius:3px;border:1px solid #ccc;color:#333;font-family:Roboto;font-size:14px;display:inline;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 2px #fff;background-color:#f7f7f7;-moz-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 2px #fff inset;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 2px #fff inset;-moz-border-radius:3px;-webkit-border-radius:3px;text-shadow:0 1px 0 #fff}.drK kbd{border:1px solid #161717;color:#b0b3b8;box-shadow:0 1px 0 #131414,inset 0 0 0 2px #242526;background-color:#1c1d1e;-moz-box-shadow:0 1px 0 #131414,0 0 0 2px #242526 inset;-webkit-box-shadow:0 1px 0 #131414,0 0 0 2px #242526 inset;text-shadow:0 1px 0 #131414}
@@ -11,7 +12,95 @@ kbd{margin:0 .1em;padding:.12em .6em;border-radius:3px;border:1px solid #ccc;col
 /* Bottom Bar Animation by Techandfunzone */ .animeBlurTWD,.animeTWD{position:fixed;width:100%;bottom:0;left:0;right:0;height:3px;z-index:23;background:linear-gradient(-45deg,#4086f4,#31a952,#fbbe01,#eb4132,#4086f4,#31a952,#fbbe01,#eb4132);background-size:200%;-webkit-animation:5s linear infinite animeBar;animation:5s linear infinite animeBar}.animeBlurTWD{height:10px;z-index:22;filter:blur(10px);opacity:.7}@-webkit-keyframes animeBar{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}@keyframes animeBar{0%,100%{background-position:0 50%}50%{background-position:100% 50%}}.desN:before{content:'';width:0;display:block;position:relative;bottom:6px;border-bottom:1.5px solid var(--linkC);margin:3px auto;animation:3s infinite AniAN;-webkit-animation:3s infinite AniAN;border-radius:25px}@-webkit-keyframes AniAN{0%,100%{width:20px}50%{width:100px}}@keyframes AniAN{0%,100%{width:20px}50%{width:100px}}
 
    #wrap{margin:20px auto;text-align:center}.btn-slide,.btn-slide2,.btn-slide3{position:relative;display:inline-block;height:50px;width:200px;line-height:50px;padding:0;border-radius:50px;border:2px solid #09c;margin:10px;transition:.5s}.btn-slide3{border:2px solid #66ef6b}.btn-slide2{border:2px solid #efa666}.btn-slide:hover{background-color:#09c}.btn-slide2 span.circle2,.btn-slide2:hover{background-color:#efa666}.btn-slide3 span.circle3,.btn-slide3:hover{background-color:#66ef6b}.btn-slide2:hover span.circle2,.btn-slide3:hover span.circle3,.btn-slide:hover span.circle{left:100%;margin-left:-45px;background-color:#fdfdfd;color:#09c}.btn-slide2:hover span.circle2{color:#efa666}.btn-slide3:hover span.circle3{color:#66ef6b}.btn-slide2:hover span.title2,.btn-slide:hover span.title{left:40px;opacity:0}.btn-slide2:hover span.title-hover2,.btn-slide3:hover span.title-hover3,.btn-slide:hover span.title-hover{opacity:1;left:40px}.btn-slide span.circle,.btn-slide2 span.circle2,.btn-slide3 span.circle3{display:block;background-color:#09c;color:#fff;position:absolute;float:left;margin:5px;line-height:42px;height:40px;width:40px;top:0;left:0;transition:.5s;border-radius:50%}.btn-slide span.title,.btn-slide span.title-hover,.btn-slide2 span.title-hover2,.btn-slide2 span.title2,.btn-slide3 span.title-hover3,.btn-slide3 span.title3{position:absolute;left:90px;text-align:center;margin:0 auto;font-size:16px;font-weight:700;color:#30abd5;transition:.5s}.btn-slide2 span.title-hover2,.btn-slide2 span.title2{color:#efa666;left:80px}.btn-slide3 span.title-hover3,.btn-slide3 span.title3{color:#66ef6b;left:80px}.btn-slide span.title-hover,.btn-slide2 span.title-hover2,.btn-slide3 span.title-hover3{left:80px;opacity:0;color:#fff}.drK .btn-slide,.drK .btn-slide2,.drK .btn-slide3{background:#2c2d31;box-shadow:2px 4px 11px #1f1f1f,-2px -4px 11px #000}.drK .btn-slide,.drK .btn-slide2,.drK .btn-slide3 svg{stroke:#292828}.drK .btn-slide,.drK .btn-slide2,.drK .btn-slide2 h2,.drK .btn-slide3 p{color:#292828}.drK .btn-slide,.drK .btn-slide2,.drK .btn-slide3:hover{box-shadow:inset 3px 5px 10px #1f1f1f,inset -3px -5px 10px #000;border:2px solid;font-size:16.9px}
-/* Anti Copy Paste by techandfunzone.in*/
- body{display:block;-khtml-user-select:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none;unselectable:on}.Blog code,.Blog pre code{display:block;padding:0;white-space:pre;font-family:'Fira Mono',monospace;user-select:text;-webkit-user-select:text;-khtml-user-select:text;-moz-user-select:text;-ms-user-select:text;user-select:text}
 /* Countdown Download Box by Tech and Fun Zone */
 .downloadInfo,.downloadInfo a{box-shadow:2px 4px 11px silver,-2px -4px 11px #fff}.downloadInfo{max-width:500px;background-color:#fefefe;border:2px solid #eceff1;border-radius:5px;padding:15px;margin-top:20px;margin-bottom:20px;display:flex;align-items:center;line-height:1.8em;font-size:14px}.downloadInfo .fileType,.downloadInfo a{flex-shrink:0;display:flex;align-items:center;justify-content:center;width:50px;height:50px;padding:10px;background:#f1f1f0;border-radius:10px}.downloadInfo .fileType{box-shadow:inset 3px 5px 10px silver,inset -3px -5px 10px #fff;border:2px solid rgba(255,255,255,.2)}.downloadInfo a{background-color:#2bf625;color:#fefefe;margin:0;padding:10px 12px;border-radius:3px;width:auto;height:auto;line-height:20px;font-size:13px;cursor:pointer}.downloadInfo a:after{content:attr(aria-label)}.downloadInfo .fileType:before{content:attr(data-text)}.downloadInfo .fileName{flex-grow:1;width:calc(100% - 150px);padding:0 15px}.downloadInfo .fileSize{line-height:20px;font-size:14px;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.downloadInfo a:hover{box-shadow:inset 3px 5px 10px #6aff57,inset -3px -5px 10px #46e141;border:2px solid #4c514c}.drK .downloadInfo,.drK .downloadInfo a{box-shadow:2px 4px 11px #1f1f1f,-2px -4px 11px #000}.icon{flex-shrink:0;display:inline-block;margin-right:12px;width:18px;height:18px;background-size:cover;background-repeat:no-repeat;background-position:center}.techandfunzone-targetlink{display:none}.drK .downloadInfo{background-color:#111;border:2px solid #3f464b;border-radius:5px}.drK .downloadInfo .fileName,.drK .downloadInfo .fileType{color:#fefefe;box-shadow:inset 3px 5px 10px #1f1f1f,inset -3px -5px 10px #000;border:2px solid}.drK .downloadInfo .fileType{background:#111}@media screen and (max-width:600px){.downloadInfo{padding:12px}.downloadInfo a{width:50px;height:50px;border-radius:10px}.downloadInfo a:after{display:none}.downloadInfo a .icon{margin:0}}techandfunzone-colour{color:#00ff17;font-size:1.5em;font-weight:700}
+
+ .bt{background: linear-gradient(180deg, #47ff6f, #417ce0);
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  transition: all 0.15s ease-out;
+  border-radius: 100px;
+  text-decoration: none;
+ filter: drop-shadow(0 5px 7px rgba(0, 0, 0, 0.3));
+  font-weight: 500;
+line-height: 3.4rem;
+
+}
+.bt:hover {
+  background: linear-gradient(180deg, #ff7147, #e0417f);
+  }
+ 
+ .bt1 {
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  transition: all 0.15s ease-out;
+  border-radius: 100px;
+  text-decoration: none;
+ filter: drop-shadow(0 5px 7px rgba(0, 0, 0, 0.3));
+  font-weight: 500;
+background: linear-gradient(180deg, #ffb200, #ff3400);
+  filter: drop-shadow(0 15px 15px #00a1ff57);
+line-height: 3.4rem;}
+ 
+ .bt2{
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  transition: all 0.15s ease-out;
+  border-radius: 100px;
+  text-decoration: none;
+ filter: drop-shadow(0 5px 7px rgba(0, 0, 0, 0.3));
+  font-weight: 500;
+ animation: cng 13s ease infinite;
+  background: linear-gradient(45deg, #00a1ff, #af4ae6);
+  line-height: 3.4rem;
+  filter: drop-shadow(0 15px 15px rgba(71, 255, 111, 0.4));
+}
+
+.bt3 {
+ font-size: 23px;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  transition: all 0.15s ease-out;
+  border-radius: 100px;
+  text-decoration: none;
+ filter: drop-shadow(0 5px 7px rgba(0, 0, 0, 0.3));
+  font-weight: 500;
+background: linear-gradient(180deg, #00eaff, #ff00dc);
+  filter: drop-shadow(0 15px 15px #00a1ff57);
+line-height: 3.4rem;}
+
+ .bt4{
+  font-size: 23px;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  transition: all 0.15s ease-out;
+  border-radius: 100px;
+  text-decoration: none;
+ filter: drop-shadow(0 5px 7px rgba(0, 0, 0, 0.3));
+  font-weight: 500;
+  background: linear-gradient(180deg, #e347ff, #7b41e0);
+line-height: 3.4rem;}
+
+
+@keyframes cng {
+  0% {
+   background-position: 100px;
+  }
+  50% {
+   background-position: 20px;
+  }
+  100% {
+    background-position: 100px;
+  }
+}
+  
+  /* for more codes code 
+  visit - www.dktechnozone.in */  
